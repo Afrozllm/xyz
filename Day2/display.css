@@ -1,0 +1,46 @@
+/* .first{
+    background-color: black;
+    color: white;
+    display: inline;
+} */
+ /* .second{
+    background-color: green;
+    color: plum;
+    display: block;
+ } */
+  /* jaab v ham block-elements ko display inline denege taab ham nahi us ke uper width ,height,margin,padding kuch kaam nahi karega But agr ham wahi block-element ko display propert inline-block dedee tab hum width ,height,padding,margin sab property used kar sakte hain but block-elements behavier inline hoga  */
+  .box{
+    width: 300px;
+    height: 300px; 
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+    
+    ;
+  }
+  .box1{
+    background-color: yellow;
+    color: blue;
+    
+
+  }
+  .box2{
+    background-color: red;
+  }
+  .box3{
+    background-color: pink;
+  }
+  /* display none set kardu too iska matlab hai ke poora documents se elemets hat jaiga and space baan jaiga */
+  /* Visibility agar ham none kar de koyi v lelements ka to iska matlab hain ke Elements to gayab ho jaiga but space khali nahi hoga  */
+  #pass{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    display: none; 
+  }
+   /* #pass{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+visibility: hidden; 
+  } */
