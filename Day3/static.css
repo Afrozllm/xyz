@@ -1,0 +1,30 @@
+.box{
+    background-color: green;
+    width: 300px;
+    height: 200px;
+    position: static;
+    left: 90px;
+    top: 40%;
+    bottom: 0;
+    right: 30px;
+    
+}
+
+/* position static deta ho koyi v block or 
+inline elements par to wo property kaam nahi karega  q ke static ka 
+he matlab ke fixed*/
+/* left, top, bottom, right ye properties sirf tab kaam karti hain jab position ki value static ke alawa koi aur ho*/
+/* by default har element ki position static hoti hai*/
+/* static ka matlab hota hai ke element apni normal flow me rahega jese wo by default hota hai*/
+/* agar ap position static rakhoge to left, top, bottom, right ki properties kaam nahi karegi*/
+/* Relative position ka matlab hota hai ke element apni normal flow me rahega lekin uski position relative to its normal position par set ki jati hai*/
+.rela{
+    background-color: black;
+    color: rgb(150, 15, 15);
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left:40px;
+    top:20px
+}
+/* Absolute position ka matlab hota hai ke element apni normal flow me nahi rahega, balki uski position fixed ki jati hai jaise ki absolute position par set kiya gaya hai. */
