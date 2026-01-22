@@ -1,0 +1,49 @@
+
+.item{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+}
+.container{
+    
+    width: 80%;
+    height: 600px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    align-content: center;
+
+    
+    
+}
+.item-1{
+   
+    background-color: red;
+    flex-grow: 3;
+    
+}
+.item-2{
+   width: 200px;
+   height: 150px;
+    background-color: bisque;
+flex-shrink: calc(2)
+
+}
+.item-3{
+   
+    background-color: purple;
+
+}
+.item-4{
+    
+    background-color: green;
+
+}
+.item-5{
+   
+    background-color: yellow;
+}
