@@ -48,3 +48,114 @@
 // console.log(typeof num)
 // console.log(typeof sallary)
 // console.log(typeof GasCylender)
+
+// .............................OPERATORS....................//
+//Arithematic Operators//
+
+// addition//
+// let num1=100;
+// let num2=num1;
+// console.log(`The addtion of ${num1} and ${num2} is :${num1+ num2}`);
+// Output:
+
+// 19 ms | 45.0 MB
+// The addtion of 100 and 100 is :200
+
+//SUBSTRACTION//
+// let a=100;
+// let b=30;
+// console.log(`The Substraction of ${a} and ${b} is :${a-b}`);
+//Output:
+// 15 ms | 44.9 MB
+// The Substraction of 100 and 30 is :70
+//MULTIPLICATION//
+// let x=10;
+// let y=x;
+// console.log(`the multiplication of ${x} and ${y} is : ${x*y}`);
+//OUTPUT:
+// 16 ms | 44.9 MB
+// the multiplication of 10 and 10 is : 100
+//DIVISION//
+// let p=100;
+//  let q=10;
+    // console.log(`the division of ${p} and ${q} is : ${p/q}`);
+    //OUTPUT:
+    // 16 ms | 44.9 MB
+    // the division of 100 and 10 is : 10
+    //MODULUS//
+     
+    //  let m=100;
+// let n=3;
+// console.log(m%3)//OUTPUT:1
+// .....................Assignment Operators..................//
+// assignment operators//
+// let Iphone17Pro="100000$";
+// console.log(`The price of Iphone17Pro is : ${Iphone17Pro}`);
+// //OUTPUT:
+// // The price of Iphone17Pro is : 100000$
+// // += operator//let a=10;
+// // a++;
+// // console.log(a);//11
+// let a=12;
+// // a--;
+// // console.log(a)//11
+// let b=10;
+// // ++b;
+// // console.log(b);11
+// let b1=8;
+// --b1;
+// console.log(b)//9;
+// Double-EqualTo//
+// let a=10;
+// let b=10;
+// console.log(a==b)//true;
+// let b=10;
+// let c="10";
+// console.log(b==c)//true
+
+
+// String//
+// let firstname="Afroz";
+// let Firstname="AFROZ";
+
+// console.log(firstname == Firstname)//false
+
+// let a=10;
+// let b=a;
+// console.log(a==b);true//
+
+// let c=[0];
+// let d=0;
+// console.log(c==d);//true
+
+// let [1]=p;
+
+// let p=[];
+// console.log([]==p)//error//
+
+// let arr=[1,2,3,4];
+// let [1,2,3,4]=arr;
+// console.log(arr== arr); error
+
+// let a='undefine';
+// let b=undefine;
+// console.log(a ==b)error undefine is not define//
+
+// let a=0;
+// let b=a;
+// console.log(a==b)//true
+
+// let a=0;
+// let b=null;
+// console.log(a==b);false
+// let a=function abc(){
+  
+// }
+
+// let b=a;
+
+// console.log(a==b);true
+// let arra=[];
+// let b=arra;
+// console.log(arra==b);//true
+
